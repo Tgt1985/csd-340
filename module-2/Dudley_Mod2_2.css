@@ -1,0 +1,60 @@
+html, body {
+  font-size: 16px;
+  }
+
+h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
+h2 {
+  font-weight: 500;
+  text-align: left;
+  padding-top: 15px;
+  
+  }
+
+.intro {
+  background-color: black;
+  color: lightblue;
+  text-indent: 2em;
+
+  }
+
+.sentence {
+  font-style: italic;
+  }
+
+.sentence span {
+  color: darkred;
+  font-family:"Miriam Fixed", Selawik, Rockwell;
+  }
+
+p {
+  font-weight: 400;
+  line-height: 1.4em;
+  }
+
+address {
+  text-align: center;
+  }
+
+a {
+  text-decoration-line: none;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #4F3674;
+  }
+
+
+
+a:hover {
+  text-decoration-line: none;
+  background-color: #D6A800;
+  }
+a:visited {
+  color: red;
+  background-color: black;
+  }
+
