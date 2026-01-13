@@ -2,42 +2,63 @@
 <!-- CSD340 - Module 3.2 - Site.CSS -->
 
 container {
-  margin-top:50px;
+  margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
  }
 
- h1, h2, h3, h4 {
-  background-color:rgb(166,36,15);
-  font-family: corbel, david, biome, timesnewroman;
+ h1, h2 {
+  background-color: rgb(166,36,15);
+  font-family: corbel, david, biome, "Time New Roman";
   color: rgb(18,4,2);
-  border: 1px, solid, #D6A800;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D6A800;
   padding: 10px;
  }
 
- a:link {
-  color: darkred;
-  font-weight: bold;
-  font-size: 1.25em;
-  text-decoration: none;
- }
-
- a:visited {
-  color: rgb(84, 73, 238);
-  font-weight: bold;
-  font-size: 1.1em;
+ h3, h4, h5 {
+  background-color:rgb(166,36,15);
+  font-family: corbel, david, biome, "Time New Roman";
+  color: rgb(37,75,75);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D6A800;
+  padding: 10px;
   text-decoration: underline;
  }
 
+ a:link {
+  color: rgb(133,31,3);
+  font-family: corbel, david, biome, "Time New Roman";
+  font-weight: bold;
+  font-size: 1.25em;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(133,31,3);
+ }
+
+ a:visited {
+  color: rgb(237,118,7);
+  font-family: corbel, david, biome, "Time New Roman";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1em;
+  text-decoration-line: none;
+  text-decoration-color: rgb(225,225,225);
+ }
+
  a:hover {
-  color: darkred;
+  color: orange;
+  font-family: corbel, david, biome, "Time New Roman";
   font-weight: bold;
   font-size: 1.3em;
  }
 
  a:active {
   background-color: rgb(224,222,58);
+  font-family: corbel, david, biome, "Time New Roman";
   color: rgb(48,224,23);
   font-weight: bold;
   font-size: 1.3em;
  }
+
