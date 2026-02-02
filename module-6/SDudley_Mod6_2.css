@@ -1,0 +1,124 @@
+<!-- Sean Dudley -->
+<!-- CSD340 - Module 6.2 - SDudley_Mod6_2.css -->
+
+header {
+  background-color: rgb(206,32,41);
+  color: black;
+  padding: 20px;
+  text-align: center;
+ }
+
+h1, h2 {
+  background-color: rgb(206,32,41);
+  font-weight: 400;
+ }
+
+#navbar {
+  overflow: hidden;
+  background-color: rgb(206,32,41);
+  border-bottom: solid 15px rgb(206,32,41);
+ }
+
+#navbar a {
+  background-color: rgb(206,32,41); 
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+  
+#container {
+  margin-top:  2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+ }
+ 
+
+#navbar a:link {
+  color: rgb(133,31,3);
+  font-family: corbel, david, biome, "Time New Roman";
+  font-weight: bold;
+  font-size: 1.25em;
+  place-items: center;
+  padding: "14px 16px";
+  text-decoration-line: underline;
+  text-decoration-color: rgb(133,31,3);
+  display: flex;
+  list-style: none;
+ }
+
+ .div-navbar a:visited {
+  color: rgb(237,118,7);
+  font-family: corbel, david, biome, "Time New Roman";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1em;
+  text-decoration-line: none;
+  text-decoration-color: rgb(225,225,225);
+ }
+
+ #navbar a:hover {
+  color: orange;
+  font-family: corbel, david, biome, "Time New Roman";
+  font-weight: bold;
+  font-size: 1.3em;
+ }
+
+.div-navbar a:active {
+  background-color: rgb(224,222,58);
+  font-family: corbel, david, biome, "Time New Roman";
+  color: rgb(48,224,23);
+  font-weight: bold;
+  font-size: 1.3em;
+ }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 50%
+ }
+
+.card-content {
+ padding: 2px 16px;
+ }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+.card-title {
+  text-align: center;
+  font-size: 2em;
+  color: rgb(206,32,41);
+  font-weight: 400;
+ }
+
+footer {
+ background-color: rgb(206,32,41);
+ position: absolute;
+ bottom: 0;
+ width: 100%
+ padding: 20px;
+ }
+
+footer p {
+  color: white;
+  font-weight: 400;
+  float: right;
+  padding-right: 10px;
+  font-style: italic;
+ }
+ 
+footer a {
+  color: white;
+  text-decoration: none;
+ }
+ 
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+ }
+ 
